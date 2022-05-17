@@ -23,7 +23,7 @@ namespace SeleniumSpecFlowNew
         public void Test1()
         {
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
-            driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("tom");
+            driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("toms");
             Console.WriteLine("hhh");
             Assert.Pass();
         }
